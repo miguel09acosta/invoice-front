@@ -196,7 +196,7 @@ export default {
             newResource: {
                 "customer_nit": null,
                 "customer_name": '',
-                "user_id": $nuxt.$auth.user.id,
+                "user_id": $nuxt.$auth.user?.id,
                 "iva": 19,
                 "before_iva": 0,
                 "total": 0
